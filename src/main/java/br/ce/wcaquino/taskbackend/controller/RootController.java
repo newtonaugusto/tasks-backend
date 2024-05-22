@@ -11,17 +11,17 @@ public class RootController {
 	
 	@GetMapping
 	public String hello() {
-		return "   _______________                        |*\\_/*|________<br>" + //
-						"  |  ___________  |     .-.     .-.      ||_/-\\_|______  |<br>" + //
-						"  | |           | |    .****. .****.     | |           | |<br>" + //
-						"  | |   0   0   | |    .*****.*****.     | |   0   0   | |<br>" + //
-						"  | |     -     | |     .*********.      | |     -     | |<br>" + //
-						"  | |   \\___/   | |      .*******.       | |   \\___/   | |<br>" + //
-						"  | |___     ___| |       .*****.        | |___________| |<br>" + //
-						"  |_____|\\_/|_____|        .***.         |_______________|<br>" + //
-						"    _|__|/ \\|_|_.............*.............._|________|_<br>" + //
-						"   / ********** \\                          / ********** \\<br>" + //
-						" /  ************  \\                      /  ************  \\<br>" + //
-						"--------------------                    --------------------";
+		return "&nbsp;&nbsp;&nbsp;_______________&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|*\\_/*|________<br>" + //
+						"&nbsp;&nbsp;|&nbsp;&nbsp;___________&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.-.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.-.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||_/-\\_|______&nbsp;&nbsp;|<br>" + //
+						"&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;.****.&nbsp;.****.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;|<br>" + //
+						"&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;.*****.*****.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;|&nbsp;|<br>" + //
+						"&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.*********.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;|<br>" + //
+						"&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;\\___/&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.*******.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;\\___/&nbsp;&nbsp;&nbsp;|&nbsp;|<br>" + //
+						"&nbsp;&nbsp;|&nbsp;|___&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;___|&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.*****.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;|___________|&nbsp;|<br>" + //
+						"&nbsp;&nbsp;|_____|\\_/|_____|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.***.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_______________|<br>" + //
+						"&nbsp;&nbsp;&nbsp;&nbsp;_|__|/&nbsp;\\|_|_.............*.............._|________|_<br>" + //
+						"&nbsp;&nbsp;&nbsp;/&nbsp;**********&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;**********&nbsp;\\<br>" + //
+						"&nbsp;/&nbsp;&nbsp;************&nbsp;&nbsp;\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;************&nbsp;&nbsp;\\<br>" + //
+						"--------------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------------";
 	}
 }
